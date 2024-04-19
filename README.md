@@ -19,7 +19,7 @@ tldr; if vite.config.ts preserveSymLinks: true the shared lib can be used but th
 - comment out script part in routes/page.svelte
 
 
-## Running and Building
+# Running and Building
 
 - First navigate to route folder and execute `pnpm install`
 - You can start the demo by running `pnpm run example.ui:dev`
