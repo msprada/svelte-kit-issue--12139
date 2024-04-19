@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "example.ui:build": "pnpm shared-data-access-models:build && pnpm --filter example.ui build",
+    "example.ui:dev": "pnpm shared-data-access-models:build && pnpm --filter example.ui dev",
+    "shared-data-access-models:build": "pnpm --filter data-access-models build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

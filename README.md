@@ -1,4 +1,8 @@
 # svelte-kit-issue--12139
+This Repo deals with following related issue:  https://github.com/sveltejs/kit/issues/12139
+
+
+
 
 tldr; if vite.config.ts preserveSymLinks: true the shared lib can be used but the redirect does not work if  preserveSymLinks: false => redirect does work but the shared lib cannot be used
 
