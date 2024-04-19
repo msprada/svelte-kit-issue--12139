@@ -4,14 +4,14 @@ tldr; if vite.config.ts preserveSymLinks: true => redirect does not work if  pre
 
 ## Steps to Reproduce
 
-### Running Shared Lib Import
+### Running Shared Lib Import (currently implememented)
 
 - change "preserveSymlinks" to true
 - comment out the  PageServerLoad function in routes/page.server.ts file
 - comment in  script part in routes/page.svelte
 
 
-### Running Redirect
+### Running Redirect 
 - change "preserveSymlinks" to false
 - comment in the  PageServerLoad function in routes/page.server.ts file
 - comment out script part in routes/page.svelte
