@@ -1,6 +1,6 @@
 # svelte-kit-issue--12139
 
-tldr; if vite.config.ts preserveSymLinks: true => redirect does not work if  preserveSymLinks: false => redirect does work but the shared lib cannot be used
+tldr; if vite.config.ts preserveSymLinks: true the shared lib can be used but the redirect does not work if  preserveSymLinks: false => redirect does work but the shared lib cannot be used
 
 ## Steps to Reproduce
 
