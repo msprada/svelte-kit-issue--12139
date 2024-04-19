@@ -8,13 +8,13 @@ tldr; if vite.config.ts preserveSymLinks: true the shared lib can be used but th
 
 ### Running Shared Lib Import (currently implememented)
 
-- change "preserveSymlinks" to true
+- change "preserveSymlinks" to true in vite.config.ts
 - comment out the  PageServerLoad function in routes/page.server.ts file
 - comment in  script part in routes/page.svelte
 
 
 ### Running Redirect 
-- change "preserveSymlinks" to false
+- change "preserveSymlinks" to false in vite.config.ts
 - comment in the  PageServerLoad function in routes/page.server.ts file
 - comment out script part in routes/page.svelte
 
