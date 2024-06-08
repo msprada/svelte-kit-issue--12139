@@ -22,7 +22,7 @@ otherwise if preserveSymLinks: false => redirect does work but the shared lib ca
 
 
 ## Steps to Reproduce the issue
-- change "preserveSymlinks" to false in vite.config.ts
+- change "preserveSymlinks" to true in vite.config.ts
 - comment in the  PageServerLoad function in routes/page.server.ts file
 - comment out script part (line 1 to line 5) and comment our referencing code (line 8 and line 9) in routes/page.svelte
 - start the application 
