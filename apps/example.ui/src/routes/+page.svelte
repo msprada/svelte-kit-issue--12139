@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { OrderDto } from 'data-access-models';
 	const order: OrderDto = new OrderDto();
-	order.id= "WE67878678"
+	order.id= 67878678;
 </script>
 
 <h1>Welcome to SvelteKit Issue 12139</h1>
